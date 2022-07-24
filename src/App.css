@@ -12,6 +12,7 @@ body{
   gap: 15px;
 }
 
+/***********ID CARD*****************/
 .IdCard{
   display: flex;
   border: 1px solid black;
@@ -24,4 +25,23 @@ body{
 
 .IdCard .dataUser {
   line-height: 70%;
+}
+
+
+/***********GREETINGS*****************/
+
+.greetingsBox{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.eachGreetingsBox{
+  border: 1px solid black;
+  
+}
+
+.eachGreetingsBox p{
+  margin-left: 10px;
+ 
 }
