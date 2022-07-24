@@ -61,3 +61,18 @@ body{
 .eachRandomBox p{
   margin-left: 10px;
 }
+
+/***********BOX COLOR*****************/
+.boxColorBox{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+ 
+}
+
+.eachBoxColor{
+  border: 1px solid black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
