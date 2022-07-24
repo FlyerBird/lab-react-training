@@ -41,8 +41,8 @@ function App() {
 
     <h1>BoxColor</h1> 
     <div className='boxColorBox'>
-      <BoxColor r={255} g={0} b={0} />
-      <BoxColor r={128} g={255} b={0} />
+      <BoxColor r={220} g={0} b={0} />
+      <BoxColor r={18} g={255} b={0} />
     </div>
 
 
