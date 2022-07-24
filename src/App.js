@@ -2,6 +2,7 @@
 import './App.css';
 import IdCard from './components/IdCard';
 import Greetings from './components/Greetins';
+import Random from './components/Random';
 
 function App() {
   return (
@@ -24,11 +25,20 @@ function App() {
             birth="1988-05-11"
             picture="https://randomuser.me/api/portraits/women/44.jpg"
           />
-      <h1>Greetings</h1>    
+
+    <h1>Greetings</h1>    
     <div className='greetingsBox'>
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
     </div>
+
+    <h1>Random</h1> 
+    <div className='randomBox'>
+      <Random min={1} max={6}/>
+      <Random min={1} max={100}/>
+    </div>
+
+
     </div>
   );
 }
