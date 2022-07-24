@@ -5,6 +5,7 @@ import IdCard from './components/IdCard';
 function App() {
   return (
     <div className="App">
+    <h1>IdCard</h1>
           <IdCard
             lastName='Doe'
             firstName='John'
