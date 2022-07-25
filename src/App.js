@@ -4,6 +4,7 @@ import IdCard from './components/IdCard';
 import Greetings from './components/Greetins';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import CreditCard from './components/CreditCard';
 
 function App() {
   return (
@@ -43,6 +44,42 @@ function App() {
     <div className='boxColorBox'>
       <BoxColor r={220} g={0} b={0} />
       <BoxColor r={18} g={255} b={0} />
+    </div>
+
+    <h1>CreditCard</h1>
+    <div className='creditCardBox'>
+    <CreditCard
+      type="Visa"
+      number="0123456789018845"
+      expirationMonth={3}
+      expirationYear={2021}
+      bank="BNP"
+      owner="Maxence Bouret"
+      bgColor="#11aa99"
+      color="white" 
+    />
+    
+    <CreditCard
+      type="Master Card"
+      number="0123456789010995"
+      expirationMonth={3}
+      expirationYear={2021}
+      bank="N26"
+      owner="Maxence Bouret"
+      bgColor="#eeeeee"
+      color="#222222"
+    />
+    
+    <CreditCard
+      type="Visa"
+      number="0123456789016984"
+      expirationMonth={12}
+      expirationYear={2019}
+      bank="Name of the Bank"
+      owner="Firstname Lastname"
+      bgColor="#ddbb55"
+      color="white" 
+    />
     </div>
 
 
