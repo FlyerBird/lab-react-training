@@ -76,3 +76,15 @@ body{
   display: flex;
   justify-content: center;
 }
+
+/***********CREDIT CARD*****************/
+
+.eachCreditCard{
+  width: 300px;
+  border-radius: 10px;
+  
+}
+
+.eachCreditCard .logoCard img{
+  width: 50px;
+}

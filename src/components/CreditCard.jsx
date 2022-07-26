@@ -12,19 +12,21 @@ export default function creditCard(props) {
       backgroundColor: `${bgColor}`,
       color: `${color}`,
     };
+    
+  let twoDigitYear = String(expirationYear).slice(2);
+
+    console.log(twoDigitYear)
 
   return (
 
     <div className='eachCreditCard' style={divStyle}>
 
-        
-
-        <div>
+        <div className='logoCard'>
           <img src={logoCard} alt="Credit Card Logo"/>
         </div>
 
         <div>{number}</div>
-        <div>Expires {expirationMonth}/{expirationYear}</div>
+        <div>Expires {expirationMonth}/{twoDigitYear}</div>
         <div>{bank}</div>
         <div>{owner}</div>
 
