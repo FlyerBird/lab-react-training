@@ -12,10 +12,16 @@ export default function creditCard(props) {
       backgroundColor: `${bgColor}`,
       color: `${color}`,
     };
+
+  let month = (elem) => {
+    return String(elem).length === 1 ? '0' + expirationMonth : String(expirationMonth);
+  }  
     
   let twoDigitYear = String(expirationYear).slice(2);
 
-    console.log(twoDigitYear)
+  
+  let lastFourNumbers = number.slice(12,16);
+ 
 
   return (
 
@@ -25,10 +31,19 @@ export default function creditCard(props) {
           <img src={logoCard} alt="Credit Card Logo"/>
         </div>
 
-        <div>{number}</div>
-        <div>Expires {expirationMonth}/{twoDigitYear}</div>
-        <div>{bank}</div>
-        <div>{owner}</div>
+        <div className='maskNumber'>•••• •••• •••• {lastFourNumbers}</div>
+
+        <div className='expirationAndBank'>
+          <div>
+            Expires {month(expirationMonth)}/{twoDigitYear}
+          </div>
+          <div>
+            {bank}
+          </div>
+        
+        </div>
+
+        <div className='owner'>{owner}</div>
 
     </div>
     
