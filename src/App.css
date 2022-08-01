@@ -119,3 +119,8 @@ body{
 .eachCreditCard .owner {
   padding-left: 10px;
 }
+
+/***********RATING STARS*****************/
+.eachRowStar{
+  font-size: 250%;
+}
