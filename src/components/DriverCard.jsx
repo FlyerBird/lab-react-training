@@ -22,10 +22,10 @@ export default function DriverCard(props) {
   return (
     <div className='eachDriverCard'>
         <img src={img} alt="driver's card" />
-        <div>
-            <p>{name}</p>
+        <div className='infoDriver'>
+            <p><strong>{name}</strong></p>
             <p>{ratingDriver}</p>
-            <p>{car.model} - {car.licensePlate}</p>
+            <p className='carModel'>{car.model} - {car.licensePlate}</p>
             
         </div>
     </div>

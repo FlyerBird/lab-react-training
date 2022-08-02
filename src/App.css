@@ -124,3 +124,38 @@ body{
 .eachRowStar{
   font-size: 250%;
 }
+
+/***********DRIVER CARD*****************/
+
+.driverCardBox{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.eachDriverCard{
+  display: flex;
+  background-color: #455EB5;
+  border-radius: 15px;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+.eachDriverCard img{
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 25px;
+ 
+}
+
+.infoDriver{
+  font-size: 1.8rem;
+  line-height: 0.5;
+  
+}
+
+.carModel{
+  font-size: 20px;
+}
