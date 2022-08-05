@@ -159,3 +159,18 @@ body{
 .carModel{
   font-size: 20px;
 }
+
+/***********LIKE BUTTON*****************/
+.likeButtonBox{
+  display: flex;
+  gap: 10px;
+ 
+}
+
+.likebutton button{
+ padding: 10px 20px;
+ font-size: 2rem;
+ background-color: #455EB5;
+ color: aliceblue;
+ border: 2px solid grey;
+}
