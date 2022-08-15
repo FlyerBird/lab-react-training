@@ -8,6 +8,10 @@ import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
+import maxence from './assets/images/maxence.png';
+import maxenceGlasses from './assets/images/maxence-glasses.png';
+
 
 function App() {
   return (
@@ -121,11 +125,14 @@ function App() {
     </div>
 
     <h1>LikeButton</h1>
-
     <div className='likeButtonBox'>
     <LikeButton /> 
     <LikeButton />
+    </div>
 
+    <h1>ClickablePicture</h1>
+    <div className='clickablePic'>
+    <ClickablePicture img={maxence} imgClicked={maxenceGlasses} />
     </div>
 
 
