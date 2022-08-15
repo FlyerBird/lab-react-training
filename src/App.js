@@ -11,6 +11,7 @@ import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import maxence from './assets/images/maxence.png';
 import maxenceGlasses from './assets/images/maxence-glasses.png';
+import Dice from './components/Dice';
 
 
 function App() {
@@ -133,6 +134,11 @@ function App() {
     <h1>ClickablePicture</h1>
     <div className='clickablePic'>
     <ClickablePicture img={maxence} imgClicked={maxenceGlasses} />
+    </div>
+
+    <h1>Dice</h1>
+    <div className='Dice'>
+    <Dice />
     </div>
 
 

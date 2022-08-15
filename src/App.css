@@ -175,8 +175,14 @@ body{
  border: 2px solid grey;
 }
 
-/***********LIKE BUTTON*****************/
+/***********CLICKABLE PIC*****************/
 .clickablePic{
+  width: 400px;
+  cursor: pointer;
+}
+
+/***********RANDOM DICE SIDE*****************/
+.Dice img{
   width: 400px;
   cursor: pointer;
 }
