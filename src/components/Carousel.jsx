@@ -16,7 +16,7 @@ export default function Carousel({ images }) {
 
   return (
     <div>
-       <img src={images[photo]} alt="person face" /> 
+       <img width="400px" src={images[photo]} alt="person face" /> 
        <button onClick={handleLeft}>Left</button>
        <button onClick={handleRight}>Right</button>
     </div>

@@ -13,6 +13,7 @@ import maxence from './assets/images/maxence.png';
 import maxenceGlasses from './assets/images/maxence-glasses.png';
 import Dice from './components/Dice';
 import Carousel from './components/Carousel';
+import NumbersTable from './components/NumbersTable';
 
 
 function App() {
@@ -154,7 +155,10 @@ function App() {
       />
     </div>
 
-    
+    <h1>NumbersTable </h1>
+    <div className='NumbersTable '>
+    <NumbersTable limit={12}/>
+    </div>
 
 
     </div>

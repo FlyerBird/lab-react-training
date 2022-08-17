@@ -186,3 +186,20 @@ body{
   width: 400px;
   cursor: pointer;
 }
+
+/***********NUMBERS TABLE*****************/
+
+.listNumbers{
+display: flex;
+}
+
+.eachNumber{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  
+}
+.eachNumber p{
+  font-size: 1.7rem;
+}
